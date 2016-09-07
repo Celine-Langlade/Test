@@ -8,6 +8,6 @@ $students = [
     "Nicolas"   => 19
 ];
 
-$moyenne = (42 + 51 + 45 + 48 + 19)/5;
+$moyenne = array_sum($students)/count($students)
 
 echo "La moyenne est $moyenne";
